@@ -1,0 +1,53 @@
+/* global.css ou seu arquivo de estilo principal */
+
+body {
+    background: #3498db; /* Uma cor azul agradável */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif; /* Escolha uma fonte agradável */
+  }
+  
+  .container {
+    background: #ecf0f1; /* Uma cor mais clara para o container */
+    height: 50%;
+    width: 100%; /* Reduzi a largura para 60% */
+    padding: 20px; /* Aumentei o espaço interno */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .container button {
+    background-color: #3498db; /* Cor correspondente ao corpo */
+    color: white;
+    padding: 12px 20px; /* Um pouco mais de espaço interno */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Um pouco maior */
+    transition: background-color 0.3s ease;
+    margin: 3px;
+  }
+  
+  .container button:hover {
+    background-color: #2980b9; /* Cor mais escura no hover */
+  }
+  .container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container li.linha {
+    border-bottom: 1px solid #bdc3c7; /* Adiciona uma borda inferior */
+    margin-bottom: 10px; /* Espaçamento entre as linhas */
+    padding-bottom: 10px; /* Espaçamento interno inferior */
+  }
+  
+  .container li:last-child.linha {
+    border-bottom: none; /* Remove a borda inferior do último elemento */
+    margin-bottom: 0; /* Remove o espaçamento entre o último elemento e o botão */
+    padding-bottom: 0; /* Remove o espaçamento interno inferior do último elemento */
+  }
+  
